@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Addin namespace="FormsPlayerXS" id="FormsPlayerXS" author="Prashant Cholachagudda" copyright="Prashant Cholachagudda" description="Power tools for Xamarin Studio and Monodevelop" category="IDE extensions" version="0.1">
+<Addin namespace="FormsPlayerXS" id="FormsPlayerXS" 
+name="Xamarin Forms Player" author="Prashant Cholachagudda" copyright="Prashant Cholachagudda" 
+description="Xamarin Forms Player for Xamarin Studio" category="IDE extensions" version="0.1">
 	<Extension path="/MonoDevelop/Ide/MainMenu">
 		<ItemSet id="FormsPlayer" _label="Forms Player">
 			<CommandItem id="FormsPlayerXS.SessionId"  />
