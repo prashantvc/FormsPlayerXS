@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+	<Extension path="/MonoDevelop/Ide/Commands">
+		<Category _name="Forms Player" id="FormsPlayer">
+			<Command id="FormsPlayerXS.ConnetToPlayer" _label="Connect" _description="Connect to Forms Player" defaultHandler="FormsPlayerXS.FormsPlayerConnectHandler" />
+			<Command id="FormsPlayerXS.Publish" _label="Publish" _description="Send the file content" defaultHandler="FormsPlayerXS.FormsPlayerConnectHandler" />
+		</Category>
+	</Extension>
+</ExtensionModel>
