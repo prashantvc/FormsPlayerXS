@@ -77,7 +77,9 @@ namespace FormsPlayerXS
 				return;
 			}
 
-			string fileName = IdeApp.Workbench.ActiveDocument.FileName.FullPath;
+			var activeDocument = IdeApp.Workbench.ActiveDocument;
+			activeDocument.Save ();
+			string fileName = activeDocument.FileName.FullPath;
 
 			if (Path.GetExtension (fileName) == ".xaml") {
 				PublishXaml (fileName);
