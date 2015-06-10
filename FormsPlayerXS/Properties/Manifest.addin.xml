@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Addin namespace="FormsPlayerXS" id="FormsPlayerXS" author="Prashant Cholachagudda" copyright="Prashant Cholachagudda" description="Power tools for Xamarin Studio and Monodevelop" category="IDE extensions" version="0.1">
+	<Extension path="/MonoDevelop/Ide/MainMenu">
+		<ItemSet id="FormsPlayer" _label="Forms Player">
+			<CommandItem id="FormsPlayerXS.ConnetToPlayer" />
+			<CommandItem id="FormsPlayerXS.Publish"  />
+		</ItemSet>
+	</Extension>
+	<Runtime>
+		<Import assembly="Newtonsoft.Json.dll" />
+	</Runtime>
+</Addin>
