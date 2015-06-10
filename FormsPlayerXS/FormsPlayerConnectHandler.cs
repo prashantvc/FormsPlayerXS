@@ -65,5 +65,15 @@ namespace FormsPlayerXS
 			_presenter.Publish ();
 		}
 	}
+
+	public class SessionIdHandler : CommandHandler {
+		protected override void Update (CommandInfo info)
+		{
+			base.Update (info);
+			//info.Enabled = false;
+			info.Visible = FormsPlayerPresenter.Instance.IsConnected;
+			info.Text = string.Format("Session ID: {0}",  FormsPlayerPresenter.Instance.SessionId);
+		}
+	}
 }
 

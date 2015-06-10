@@ -142,7 +142,7 @@ namespace FormsPlayerXS
 			set;
 		}
 
-		string SessionId;
+		internal string SessionId{ get; private set;}
 
 		HubConnection connection;
 		IHubProxy proxy;
