@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AddinProject appVersion="5.0">
-	<Project platforms="Linux Win32 Mac">
+	<Project platforms="Win32">
 		<AddinFile>FormsPlayerXS/bin/Release/FormsPlayerXS.dll</AddinFile>
 		<BuildFile>FormsPlayerXS.sln</BuildFile>
 		<BuildConfiguration>Release</BuildConfiguration>
