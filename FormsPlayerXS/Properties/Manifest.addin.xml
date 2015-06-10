@@ -2,6 +2,7 @@
 <ExtensionModel>
 	<Runtime>
 		<Import assembly="Newtonsoft.Json.dll" />
+		<Import assembly="Microsoft.AspNet.SignalR.Client.dll" />
 	</Runtime>
 	<Extension path="/MonoDevelop/Ide/MainMenu">
 		<ItemSet id="FormsPlayer" _label="Forms Player">
