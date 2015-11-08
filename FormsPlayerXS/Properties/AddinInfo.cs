@@ -9,6 +9,6 @@ using Mono.Addins.Description;
 )]
 
 [assembly:AddinName ("Forms Player for XS")]
-[assembly:AddinCategory ("IDE extensions")]
-[assembly:AddinDescription ("Xamarin Forms player for Xamarin Studio on Windows")]
+[assembly:AddinCategory ("Mobile Development")]
+[assembly:AddinDescription ("Xamarin Forms player for Xamarin Studio")]
 [assembly:AddinAuthor ("Prashant")]
