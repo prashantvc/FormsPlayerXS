@@ -5,7 +5,7 @@ using Mono.Addins.Description;
 [assembly:Addin (
 	"FormsPlayerXS", 
 	Namespace = "FormsPlayerXS",
-	Version = "0.3"
+	Version = "0.4"
 )]
 
 [assembly:AddinName ("Forms Player for XS")]
