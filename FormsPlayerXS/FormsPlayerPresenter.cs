@@ -18,10 +18,7 @@ namespace FormsPlayerXS
 	{
 		FormsPlayerPresenter ()
 		{
-			var mac = NetworkInterface.GetAllNetworkInterfaces ()
-				.Where (nic => nic.NetworkInterfaceType == NetworkInterfaceType.Loopback).ToList();
-
-			SessionId = NaiveBijective.Encode (NaiveBijective.Decode (mac.Select (c => c.Id.ToString ()).First()));
+			SessionId = Helper.SessionId;
 			Console.WriteLine ("session id {0}", SessionId);
 		}
 
@@ -141,6 +138,8 @@ namespace FormsPlayerXS
 			get;
 			set;
 		}
+
+
 
 		internal string SessionId{ get; private set;}
 
